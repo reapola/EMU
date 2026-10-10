@@ -31,9 +31,14 @@ Join our active communities on Discord using the links below. We are active on b
   - [Printed parts configurator](https://emu.dwtas.net)
   - [Printing, Assembly and Wiring](/docs/assembly_wiring)
   - [Board Setup and Flashing](/docs/software_setup/01-board-setup.md)
-  - [Happy Hare Setup](/docs/software_setup/02-happy-hare-setup.md)
+  - [Software Setup](/docs/software_setup/02-software-setup.md)
   - [Calibration and Startup](/docs/software_setup/03-calibration-and-startup.md)
+  - [Expanding the Unit](/docs/software_setup/04-expanding-the-unit.md)
   - [Slicer setup and optimisation for multi color prints](/docs/software_setup/05-slicer-setup.md)
+  - [Updating CAN Boards with UKAM](/docs/software_setup/06-updating-can-boards.md)
+  - [Manual Sensorless Toolhead Calibration for Happy Hare](/docs/software_setup/07-manual-toolhead-calibration.md)
+  - [Manual Toolhead Calibration with Two Sensors for Happy Hare](/docs/software_setup/08-manual_toolhead_calibration_two_sensors.md)
+  - [Legacy Happy Hare v3 guides (archive)](/docs/software_setup/legacy_hhv3)
 - [Render Gallery](#render-gallery)
 - [Prints Gallery](#prints-gallery)
 - [License](#this-work-is-licensed-under-a)
@@ -44,7 +49,7 @@ Join our active communities on Discord using the links below. We are active on b
 - **Sealed dry boxes** able to maintain humidity in the 15% range (with silica gel) or 5–8% range (with molecular sieves) for weeks.  
 - **Humidity sensors** per lane for filament environmental monitoring.
 - **Reliable endless spool** with no chance of the rewound filament interfering with neighbouring rolls.
-- **Off-the-shelf electronics** (EBB42 with EBB36 also fully compatible).  
+- **Off-the-shelf electronics** (EBB42 with EBB36 also fully compatible). Custom designed Solo Lane Boards (SLB) available as an option, to ease wiring.
 - **Per-lane controls** - eject button + LEDs.
 
 <p align="center">

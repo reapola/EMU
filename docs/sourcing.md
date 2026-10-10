@@ -33,7 +33,27 @@ It also allows us to offer feedback to the vendors to ensure the kits can result
       Platinum
     </td>
     <td>
-      Platinum tier kit with all optional PCB options and exclusive PCB options included. High quality components, with exceptional fit and finish. Active support by the vendor in the Discord communities.
+      Platinum tier kit with all optional PCB options and exclusive PCB options included. High quality components, with exceptional fit and finish. Active support by the vendor in the Discord communities. <br><br> Initial batch of kits had the DIn - DOut silk screen on the Neopixel LEDs swapped around. 
+    </td>
+  </tr>
+  <tr>
+  <td><strong>DREMC (Vano3dla reseller)</strong></td>
+  <td><a href="https://store.dremc.com.au/products/emu-the-expandable-multi-material-unit-hardware-kit">2 lane and 5 lane kit</a><br>Local Australian Stockist</td>
+  <td>
+    Platinum
+  </td>
+  <td>
+    Platinum tier kit with all optional PCB options and exclusive PCB options included. High quality components, with exceptional fit and finish. Active support by the vendor in the Discord communities. <br><br> Initial batch of kits had the DIn - DOut silk screen on the Neopixel LEDs swapped around. 
+  </td>
+  </tr>
+  <tr>
+    <td><strong>onetwo3D</strong></td>
+    <td><a href="https://www.onetwo3d.co.uk/product/emu-expandable-multi-material-unit-kit/">EMU base kit + lane kit(s)</a><br>Local UK Stockist</td>
+    <td>
+      Platinum
+    </td>
+    <td>
+      <b>UK Based retailer, fast shipping. Modular purchase model:</b> buy one Base Kit per EMU system, then add one Lane Kit per lane required. Also excellent for existing kit expansion. <br><br>Kit includes EMU custom PCBs (hatch board and LED PCB), parts for stock EMUSync with option to add PSF, solo lane controller boards and IO Board separately. All optional boards (<a href="https://www.onetwo3d.co.uk/product/emu-solo-lane-board-slb/">Solo lane board</a>, <a href="https://www.onetwo3d.co.uk/product/psf-proportional-sync-feedback-sensor-for-mmu/">PSF</a>, <a href="https://www.onetwo3d.co.uk/product/emu-i-o-board/">EMU IO board</a>) stocked by OneTwo3D.<br/><br/>Kit includes pre-terminated wire looms, cut and crimped to size. Wiring for both SLB, EBB36/42 Gen 1, Gen 2, PSF and stock EMU Sync included. <br><br>Active support by the vendor in the Discord communities<br><br>Printed parts not included
     </td>
   </tr>
     <tr>
@@ -49,9 +69,10 @@ It also allows us to offer feedback to the vendors to ensure the kits can result
     <td>
     Good quality core components kit requiring some additional wiring and assembly effort. Kit specifics:
     <ol>
+      <li>⚠️ PRE-ASSEMBLED JST PLUGS: Take care to verify red and black wire locations. Initial shipments have these two wires swapped.</li>
       <li>Front switch PCB LED out wire is 300mm instead of 600mm. If using the Solo Lane Board, this is correct. If using an EBB, the user will need one additional WAGO, replacement of the 300mm LED out wire with a 600mm wire, or to solder the 300mm LED out wire to the 300mm LED in wire of the Hatch PCB.</li>
       <li>PCBs require soldering of the JST headers. All required JST headers and wires to assemble the kit are included.</li>
-      <li>Wires are pre-crimped and assembled on the Box/front LED PCB connector side. The board side is uncrimped, but JST and Dupont crimps and plugs are provided.</li>
+      <li>Wires are pre-crimped and assembled on the Box/front LED PCB connector side. The board side is uncrimped, but JST and Dupont crimps and plugs are provided. (See warning in point 1)</li>
       <li>WAGO alternatives are used. An alternative holder is required to be printed; the file is included in the usermod directory.</li>
       <li>Clear panel is 1.2mm thick. It is easier to assemble into place, with no expected impact on air-tightness.</li>
       <li>Sampled kit panel was 344mm instead of 343mm in length. Ensure the lid is correctly shrinkage compensated.</li>
@@ -66,7 +87,7 @@ It also allows us to offer feedback to the vendors to ensure the kits can result
 
 ### Controller Boards
 In addition to the kit of your choice, one controller board per lane is required.
-- **Recommended:** [Solo lane board (SLB)](https://www.aliexpress.com/item/1005012025112049.html) - significantly simplifies wiring of the individual units.
+- **Recommended:** Solo lane board (SLB) [Ali Express](https://www.aliexpress.com/item/1005012025112049.html) [OneTwo3D](https://www.onetwo3d.co.uk/product/emu-solo-lane-board-slb/)- significantly simplifies wiring of the individual units.
 - **Alternatively:** An EBB 42 or EBB 36 is also functional on the unit, with a bit more effort on crimping the necessary connectors.
 
 ### Certification Tiers
@@ -129,10 +150,10 @@ While kits make sourcing convenient, the EMU can also be fully self sourced usin
 
 ## Recommended Upgrades
 While entirely optional, the below upgrades are highly recommended. 
-1. [PCB hatch boards](/PCB%20(recommended%20options)/hatch_board) - simplifies wiring, sealing of the box and reduces soldering need.
-2. [Eject button multi-LED PCB](/PCB%20(recommended%20options)/multi_led_button) - simplifies wiring and displays animated effects when loading / unloading filament.
-3. [Proportional Sync Feedback Sensor](https://www.aliexpress.com/item/1005010470743517.html) - allows for clog, tangle detection and more accurate synchronisation between the EMU and the extruder.
-4. [Input / Output (IO) Board](https://www.aliexpress.com/item/1005011529532141.html) - removes need to solder the XT30 2+2 and JST connector and simplifies wiring of the base IO.
+1. [PCB hatch boards](/PCB%20(recommended%20options)/hatch_board) [AliExpress](https://www.aliexpress.com/item/1005011529532141.html), [OneTwo3D](https://www.onetwo3d.co.uk/product/emu-hatch-pcb-wiring-board-with-connectors/) - simplifies wiring, sealing of the box and reduces soldering need.
+2. [Eject button multi-LED PCB](/PCB%20(recommended%20options)/multi_led_button) [AliExpress](https://www.aliexpress.com/item/1005011529532141.html) [OneTwo3D](https://www.onetwo3d.co.uk/product/emu-led-pcb-with-connectors/) - simplifies wiring and displays animated effects when loading / unloading filament.
+3. Proportional Sync Feedback Sensor (PSF) [AliExpress](https://www.aliexpress.com/item/1005010470743517.html) [OneTwo3D](https://www.onetwo3d.co.uk/product/psf-proportional-sync-feedback-sensor-for-mmu/) - allows for clog, tangle detection and more accurate synchronisation between the EMU and the extruder.
+4. Input / Output (IO) Board [AliExpress](https://www.aliexpress.com/item/1005011529532141.html) [OneTwo3D](https://www.onetwo3d.co.uk/product/emu-i-o-board/) - removes need to solder the XT30 2+2 and JST connector and simplifies wiring of the base IO.
 
 ---
 

@@ -7,10 +7,13 @@ Use the [configurator linked here](https://emu.dwtas.net) to select your number 
 
 ## Table of Contents
 - [EMU – Printing, Assembly and Wiring](#emu--printing-assembly-and-wiring)
+  - [Configurator](#configurator)
+  - [Table of Contents](#table-of-contents)
   - [Print Settings](#print-settings)
-    - [Filamentalist components and Lane stepper components:](#filamentalist-components-and-lane-stepper-components)
-    - [Dry Box components:](#dry-box-components)
-    - [Base unit components:](#base-unit-components)
+    - [Filamentalist components and Lane stepper components](#filamentalist-components-and-lane-stepper-components)
+    - [Dry Box components](#dry-box-components)
+    - [Base unit components](#base-unit-components)
+  - [Assembly Manuals](#assembly-manuals)
   - [Assembly Videos](#assembly-videos)
     - [Part 1: Filamentalist and Stepper Assembly Guide](#part-1-filamentalist-and-stepper-assembly-guide)
     - [Part 2: Drybox Assembly Guide](#part-2-drybox-assembly-guide)
@@ -23,12 +26,16 @@ Use the [configurator linked here](https://emu.dwtas.net) to select your number 
     - [Base wiring dimensions](#base-wiring-dimensions)
     - [PCB Hatch wiring dimensions](#pcb-hatch-wiring-dimensions)
     - [DIY Hatch (no pcb) wiring dimensions](#diy-hatch-no-pcb-wiring-dimensions)
+    - [Solo Lane Board (SLB) wiring dimensions](#solo-lane-board-slb-wiring-dimensions)
 
 <p align="center">
   <img src="/docs/assets/images/EMU_multi_lane_unit.png" width="100%">
 </p>
 
 ## Print Settings
+
+> [!WARNING]
+> **Parts are not shrinkage compensated** - calibrate your filament shrinkage first! 
 
 ### Filamentalist components and Lane stepper components:
 The below print settings are recommended for the filamentalist and lane stepper components. These are structural parts hence require print settings optimised for strength:
@@ -44,12 +51,13 @@ The below print settings are recommended for the filamentalist and lane stepper 
 - Disable thick bridges
 - Z hop enabled to avoid nozzle scraping (0.2 is sufficient)
 
+> [!IMPORTANT]
+> If the bearings are loose, you're either under extruding, or over compensating for shrinkage.<br/>
 
 > [!IMPORTANT]
 > The [Idler_Roller_Axle](https://github.com/DW-Tas/EMU/blob/main/STL/Filamentalist/Idler_Roller_Axle.stl) and [[a]_Stepper_Tension_Arm](https://github.com/DW-Tas/EMU/blob/main/STL/Stepper/%5Ba%5D_Stepper_Tension_Arm%5BMR693zz%5D.stl) are best to be printed with **999 walls** to ensure adequate strength of the part and less chance of breakage.
 
 > [!IMPORTANT]
-> **Parts are not shrinkage compensated** - calibrate your filament shrinkage first! If the bearings are loose, you're either under extruding, or over compensating for shrinkage.<br/>
 > **Disable thick bridges** in your slicer and make sure your flow rate (EM) is on point! **Over extrusion, thick bridges and insufficient cooling will cause your sensor magnets and bearings not to fit as the bridges will sag.**
 
 **For the TPU filamentalist CDR ring:**
@@ -108,6 +116,9 @@ The below print settings are recommended for the base units and their accessorie
 > Paint on ONLY, not full model fuzzy skin. <br/>
 > 0.1 distance, 0.1 or 0.2mm depth. Displacement method (orca slicer)
 
+## Assembly Manuals
+Assembly manuals are gradually becoming available in the [Manuals folder](/Manuals), replacing the assembly videos below.
+
 ## Assembly Videos
 
 ### Part 1: Filamentalist and Stepper Assembly Guide
@@ -120,10 +131,11 @@ The below print settings are recommended for the base units and their accessorie
 4. For the BMG tensioning arm, the bushing is no longer an option. 
 5. Add a washer to the stepper tensioning arm on both sides of the spring.
 6. Add a washer to the filamentalist tensioning arm on both sides of the spring.
-7. Stepper body screws are all M3x20
+7. Stepper body screws are all M3x20. Stepper wiring comes out the front, not the rear as shown in the video.
 8. Front ECAS is no longer required
 9. PTFE tube lengths have been updated since the video release. [Use the dedicated cutter STL](https://github.com/DW-Tas/EMU/blob/main/STL/Tools/PTFE%20Cutter%20and%20Length%20Tool.stl) to measure and cut the PTFE tubes.
 10. Front wheels now use a single M3x12 FHCS screw with a square nut placed in the corresponding wheel slot.
+11. Insert the front PTFE tube while assembling the body, not after as shown in the video.
 
 ### Part 2: Drybox Assembly Guide
 [![EMU Dry Box Assembly Guide](https://img.youtube.com/vi/JZzMyOBCdSM/0.jpg)](https://www.youtube.com/watch?v=JZzMyOBCdSM)
